@@ -1,15 +1,48 @@
-.body {
-    background-color: #131313;
-    height: 95vh;
-    border: 0.5px solid #282828;
-}
-
 .top-link {
-    color: #9BA3B4;
     cursor: pointer;
     padding-left: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17.5px;
+    font-weight: 500;
+}
+
+.top-link:focus {
+    color: #9BA3B4;
+}
+
+body.dark-mode .top-link:hover,
+.anchor:hover {
+    color: white;
+}
+
+.top-link:hover,
+.anchor:hover {
+    color: #2B2B2B;
+
+}
+
+.top-link,
+.anchor {
+    color: #2B2B2B;
+    text-decoration: none;
+}
+
+body.dark-mode .top-link,
+.anchor {
+    color: #9BA3B4;
+    text-decoration: none;
+
+}
+
+.top-link:focus,
+.anchor:focus {
+    color: inherit;
+
+}
+
+.top-link:visited,
+.anchor:visited {
+    color: #9BA3B4;
 }
 
 .box {
@@ -33,13 +66,9 @@
     border-style: solid;
     border-width: 1px;
     border-color: #9BA3B4;
-    background-color: #131313;
-    color: #9BA3B4;
 }
 
 .container {
-    background-color: #181818;
-    color: #9BA3B4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     margin-bottom: 20px;
@@ -54,12 +83,12 @@
 }
 
 .anchor {
-    color: #4daafc;
-    font-size: 12 px
+
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .lines {
-    color: #9ba3b4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
@@ -74,12 +103,22 @@ input {
     border-radius: 6px;
     height: 35px;
     width: 200px;
-    background-color: #0e0e0e;
-    color: #9ba3b4;
     font-size: 15px;
-    border-color: #282828 !important;
+    border-color: #0069B9 !important;
     border: 0.5px solid !important;
     padding-left: 2%;
+}
+
+body.dark-mode input {
+    border-radius: 6px;
+    height: 35px;
+    width: 200px;
+    font-size: 15px;
+    border-color: #0069B9 !important;
+    background-color: #131313;
+    border: 0.5px solid #9BA3B4 !important;
+    padding-right: 2%;
+    color: white !important;
 }
 
 .boxes {
@@ -89,7 +128,7 @@ input {
 }
 
 .tag {
-    color: #fff;
+
     font-size: 56px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 550 !important;
@@ -98,13 +137,14 @@ input {
 
 .btn {
     background-color: #0069B9;
+    color: white;
     border: none;
     border-radius: 5px;
     height: 35px;
     width: 100px;
     font-size: 15px;
     font-weight: 550;
-    color: #fff;
+
     margin-left: 5px;
 }
 
@@ -115,7 +155,62 @@ input {
 
 .download-icon:hover {
 
-    background-color: #8a8a8a98;
+    background-color: #8a8a8a32;
     cursor: pointer;
     border-radius: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: #131313;
+    color: white;
+}
+
+.popup {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+body.dark-mode .popup {
+    color: white;
+}
+
+.sun-moon-love:hover {
+
+    background-color: #8a8a8a98;
+    border: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    align-items: center;
+    right: auto;
+
+}
+
+.sun-moon-love {
+
+    background-color: transparent;
+    border: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    align-items: center;
+    right: 5px;
+}
+
+img.sun-moon-love {
+    background-color: transparent !important;
+    padding-right: 20px;
+}
+
+.navbar {
+
+    width: 1400px;
 }
