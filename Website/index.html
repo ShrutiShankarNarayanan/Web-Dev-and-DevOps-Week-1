@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Visual Studio Code - Code Editor
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+</head>
+
+<body class="dark-mode" style="background-color: #0e0e0e;">
+    <div class="body">
+        <center>
+            <nav class="navbar">
+                <div
+                    style="color: #fff; padding-left: 150px; padding-right: 150px; padding-top: 10px; display: flex; justify-content: space-between;">
+                    <div>
+                        <a style="width: 25px; padding-right: 5px; vertical-align: top;" href="/"><img
+                                src="https://code.visualstudio.com/favicon.ico" alt="vs-code-logo"
+                                style="width: 25px; padding-right: 10px; vertical-align:top;"></a>
+                        <span
+                            style="font-size: 20; font-weight: 575; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Visual
+                            Studio Code</span>
+                        <!--<a href="https://www.google.com" style="color: #fff;">Google</a>-->
+                        <a target="_blank" href="https:/www.google.com" style="text-decoration: none;"><span
+                                class="top-link" href="/">Docs</span></a>
+                        <span class="top-link" href="/">Updates</span>
+                        <span class="top-link" href="/">Blog</span>
+                        <span class="top-link" href="/">API</span>
+                        <span class="top-link" href="/">Extensions</span>
+                        <span class="top-link" href="/">FAQs</span>
+                        <span class="top-link" href="/">Learn</span>
+                    </div>
+
+                    <button id="toggleButton" onclick="toggleMode()" style="background-color: #0e0e0e00; border: none;">
+                        <img class="light-mode" src="https://code.visualstudio.com/assets/icons/theme-light.svg"
+                            alt="Switch to dark theme" style="width: 22px; margin-left: 175px !important;">
+                    </button>
+
+                    <div class="box">
+                        <div style="display: flex; align-items: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" viewBox="0 0 32 32">
+                                <path
+                                    d="M 19 3 C 13.488281 3 9 7.488281 9 13 C 9 15.394531 9.839844 17.589844 11.25 19.3125 L 3.28125 27.28125 L 4.71875 28.71875 L 12.6875 20.75 C 14.410156 22.160156 16.605469 23 19 23 C 24.511719 23 29 18.511719 29 13 C 29 7.488281 24.511719 3 19 3 Z M 19 5 C 23.429688 5 27 8.570313 27 13 C 27 17.429688 23.429688 21 19 21 C 14.570313 21 11 17.429688 11 13 C 11 8.570313 14.570313 5 19 5 Z">
+                                </path>
+                            </svg>
+                            <input type="text" placeholder="Search Docs">
+                        </div>
+
+                        <button class="btn">Download</button>
+                    </div>
+            </nav>
+        </center>
+        <br>
+        <center>
+            <div
+                style="color: #fff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px; color:#9ba3b4; padding-bottom: 40px; display: flex; justify-content: space-between; margin-right: 200px;">
+                <p style="text-align: center; padding-left: 450px;">
+                    <a href="/" class="anchor">Version 1.82</a>
+                    is now available! Read about the new
+                    features and fixes
+                    from July.
+                </p>
+                <div style="padding-top: 17.5px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" viewBox="0 0 50 50"
+                        class="download-icon">
+                        <path
+                            d="M 40.783203 7.2714844 A 2.0002 2.0002 0 0 0 39.386719 7.8867188 L 25.050781 22.222656 L 10.714844 7.8867188 A 2.0002 2.0002 0 0 0 9.2792969 7.2792969 A 2.0002 2.0002 0 0 0 7.8867188 10.714844 L 22.222656 25.050781 L 7.8867188 39.386719 A 2.0002 2.0002 0 1 0 10.714844 42.214844 L 25.050781 27.878906 L 39.386719 42.214844 A 2.0002 2.0002 0 1 0 42.214844 39.386719 L 27.878906 25.050781 L 42.214844 10.714844 A 2.0002 2.0002 0 0 0 40.783203 7.2714844"
+                            fill="#9ba3b4"></path>
+                    </svg>
+                </div>
+
+            </div>
+        </center>
+        <br />
+
+        <div class=" left-panel">
+            <div class="boxes">
+                <div class="container">
+                    Free. Built on open source. Runs everywhere.
+                </div>
+                <div class="tag">
+                    Code Editing.<br> Redefined.
+                </div>
+                <button class="btn"
+                    style="font-size: 18px; width: 220px; margin-left: 0; height: 50px; margin-bottom:10px;">Download
+                    for macOS</button>
+                <br>
+                <span class="lines" style="margin-bottom: 10px;">
+                    <a class="anchor" href="/">Web</a>, <a class="anchor" href="/">Insiders
+                        edition</a>, or <a class="anchor" href="/">other platforms</a></span><br>
+                <span class="lines" style="font-size: 12 !important;">By using VS Code, you agree to its <a href="/"
+                        class="anchor">license</a> and <a href="/" class="anchor">privacy
+                        statement</a></span>
+            </div>
+            <img src="https://code.visualstudio.com/assets/home/home-screenshot-mac-2x-v2.png"
+                style="padding-right: 100px;" width="800" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

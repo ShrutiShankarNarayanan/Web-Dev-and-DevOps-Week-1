@@ -1,0 +1,121 @@
+.body {
+    background-color: #131313;
+    height: 95vh;
+    border: 0.5px solid #282828;
+}
+
+.top-link {
+    color: #9BA3B4;
+    cursor: pointer;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17.5px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.box svg {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    fill: #9BA3B4;
+}
+
+.box input {
+    padding-left: 28px;
+    padding-block: 7px;
+    margin-right: 5px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9BA3B4;
+    background-color: #131313;
+    color: #9BA3B4;
+}
+
+.container {
+    background-color: #181818;
+    color: #9BA3B4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 315px;
+    height: 40px;
+    border: 0.5px solid;
+    border-radius: 20px;
+    padding-left: 15px;
+    border-color: #282828;
+}
+
+.anchor {
+    color: #4daafc;
+    font-size: 12 px
+}
+
+.lines {
+    color: #9ba3b4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.left-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    border-radius: 6px;
+    height: 35px;
+    width: 200px;
+    background-color: #0e0e0e;
+    color: #9ba3b4;
+    font-size: 15px;
+    border-color: #282828 !important;
+    border: 0.5px solid !important;
+    padding-left: 2%;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.tag {
+    color: #fff;
+    font-size: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 550 !important;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #0069B9;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 550;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.btn:hover {
+    background-color: #005ea6;
+    cursor: pointer;
+}
+
+.download-icon:hover {
+
+    background-color: #8a8a8a98;
+    cursor: pointer;
+    border-radius: 2px;
+}
